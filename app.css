@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    color: lightgoldenrodyellow;
+}
+
+body{
+    font-family: "Luckiest Guy";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    background-color: #e6e6ea;
+}
+
+.container{
+    height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ 
+
+}
+
+header{
+    background: linear-gradient(140deg, brown, pink);
+    border-bottom: 5px solid lightgoldenrodyellow;
+}
+
+
+.form{
+    background-color: red;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(110, 5, 23);
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid rgb(205, 205, 171);
+ }
+
+ .form-add{
+    background-color: green;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid rgb(205, 205, 171);
+ }
+
+
+
+ h3{
+    font-size: small;
+    text-decoration: underline;
+ }
+
+p{
+    color: lightgoldenrodyellow;
+    font-size: medium;
+}
+
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10px ;
+    padding: 25px 0;
+    color: lightgoldenrodyellow;
+}
+
+.nav-text{
+    letter-spacing: 6px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    margin: 10px;
+}
+
+.input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 2px lightgoldenrodyellow;
+}
+
+.input::placeholder{
+    color: lightgray;
+}
+
+
+
+
+.btn{
+    background-color: lightgoldenrodyellow;
+    color: red;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 5px;
+    
+}
+
+.btn:hover{
+    box-shadow: 0 3px 7px white;   
+    filter: brightness(0.8);
+    color: red;
+}
+
+.btn-add{
+    background-color: lightgoldenrodyellow;
+    color: green;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-family: inherit;
+    cursor: pointer;
+    margin: 20px 0;
+    border-radius: 5px;
+  
+}
+
+.btn-add:hover{
+    box-shadow: 0 3px 7px white;   
+    filter: brightness(0.8);
+    color: green;
+}
+
+.score{
+    text-align: left;
+}
+ 
+
+
+.score-alert{
+    visibility: hidden;
+    background-color: rgb(62, 50, 235);
+    width: 60%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+   border-radius: 10px;
+    cursor: pointer;
+   
+   
+    border: 3px solid lightgoldenrodyellow;
+    transition: 1s;
+    position: absolute;
+    font-size: 15px;
+   
+}
+

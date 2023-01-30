@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Math App</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  style=" background: linear-gradient(140deg, lime, darkgreen);
+    border-bottom: 5px solid lightgoldenrodyellow;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html" style="letter-spacing: 5px; color: lightgoldenrodyellow;">CHILDRENS MATH <i class="fa-solid fa-robot"></i></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="multiply.html">Multiplication</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="add.html">Addition</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sub.html">Subtraction</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+    <div class="container">
+
+      <div class="score-alert" id="score-alert"> 
+      
+      </div>
+
+    <form class="form-add" id="form" style="background-color: green;">
+        <h3 class="score" id="score">
+            Score: 0
+            
+        </h3>
+
+        <p id="countdown"></p>
+        <i class="fas fa-clock"></i>
+
+        <br>
+
+
+        <br>
+
+        <p>Answer correctly to score points! <br>  Answer incorrectly and lose points...</p>
+           <hr>
+
+        <h1 id="question"></h1>
+        <input type="number" class="input" id="input" placeholder="Your answer..." autofocus autocomplete="off">
+        <button class="btn-add" type="submit">Submit</button>
+    </form>
+
+</div>
+
+  
+
+  
+
+    
+
+    <script src="add.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

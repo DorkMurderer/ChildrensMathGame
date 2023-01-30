@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Luckiest Guy";
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+    background-color: #e6e6ea;
+    color: red;
+}
+
+h3{
+    margin-top: 100px;
+    text-decoration: underline;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border: 5px solid lightgoldenrodyellow;
+    height: 50%;
+    background-color: rgb(252, 248, 255);
+}
+
+a{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    justify-content:right;
+}
+
+hr{
+    
+    color: red;
+}
+
+
+    
+
+p{
+    text-align: center;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    align-items: center;
+    align-content: center;
+}
+
+@media (max-width: 400px){
+    .container{
+        height: 80%;
+    }
+
+    h3{
+        margin-top: 20px;
+    }
+}
